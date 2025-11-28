@@ -1,0 +1,98 @@
+lighter:
+  weight: 17
+  location: 1
+
+inhaler:
+  weight: 31
+  location: 1
+
+clipper:
+  weight: 19
+  location: 1
+
+file:
+  weight: 3
+  location: 1
+
+sunscreen:
+  weight: 30
+  location: 1
+
+lipbalm:
+  weight: 18
+  location: 1
+
+wallet:
+  weight: 45
+  location: 1
+
+cards:
+  weight: 26
+  location: 1
+
+
+marker:
+  w: 9
+  l: 0
+
+pen:
+  w: 17
+  l: 0
+
+cara_hair_ties:
+  w: 14
+  l: 0
+
+cara_hat:
+  w: 25
+  l: 0
+  
+hat:
+  w: 89
+  l: 0
+
+towels:
+  w: 14
+  l: 2
+
+bags:
+  w: 65
+  l: 2
+
+cards:
+  w: 90
+  l: 2
+
+gloves:
+  w: 45
+  l: 2
+
+marker-pink:
+  w: 23
+  l: 2
+
+pen-green:
+  w: 90
+  l: 2
+
+gum:
+  w: 25
+  l: 2
+
+notebook:
+  w: 55
+  l: 2
+
+multitool:
+  w: 286
+  l: 2
+
+stickers:
+  w: 20
+  l: 2
+
+keys:
+  w: 44
+  l: 2
+
+
