@@ -1,98 +1,55 @@
-lighter:
-  weight: 17
-  location: 1
+pocket-top:
+  lighter:
+    weight: 17
+  inhaler:
+    weight: 31
+  clipper:
+    weight: 19
+  file:
+    weight: 3
+  sunscreen:
+    weight: 30
+  lipbalm:
+    weight: 18
+  wallet:
+    weight: 45
+  cards:
+    weight: 26
 
-inhaler:
-  weight: 31
-  location: 1
+outside:
+  marker:
+    weight: 9
+  pen:
+    weight: 17
+  cara_hair_ties:
+    weight: 14
+  cara_hat:
+    weight: 25
+  hat:
+    weight: 89
 
-clipper:
-  weight: 19
-  location: 1
-
-file:
-  weight: 3
-  location: 1
-
-sunscreen:
-  weight: 30
-  location: 1
-
-lipbalm:
-  weight: 18
-  location: 1
-
-wallet:
-  weight: 45
-  location: 1
-
-cards:
-  weight: 26
-  location: 1
-
-
-marker:
-  w: 9
-  l: 0
-
-pen:
-  w: 17
-  l: 0
-
-cara_hair_ties:
-  w: 14
-  l: 0
-
-cara_hat:
-  w: 25
-  l: 0
-  
-hat:
-  w: 89
-  l: 0
-
-towels:
-  w: 14
-  l: 2
-
-bags:
-  w: 65
-  l: 2
-
-cards:
-  w: 90
-  l: 2
-
-gloves:
-  w: 45
-  l: 2
-
-marker-pink:
-  w: 23
-  l: 2
-
-pen-green:
-  w: 90
-  l: 2
-
-gum:
-  w: 25
-  l: 2
-
-notebook:
-  w: 55
-  l: 2
-
-multitool:
-  w: 286
-  l: 2
-
-stickers:
-  w: 20
-  l: 2
-
-keys:
-  w: 44
-  l: 2
+pocket-main:
+  towels:
+    weight: 14
+  bags:
+    weight: 65
+  cards:
+    weight: 90
+  gloves:
+    weight: 45
+  marker-pink:
+    weight: 23
+  pen-green:
+    weight: 90
+  gum:
+    weight: 25
+  notebook:
+    weight: 55
+  multitool:
+    weight: 286
+  stickers:
+    weight: 20
+  keys:
+    weight: 44
 
 
