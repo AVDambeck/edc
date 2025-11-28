@@ -1,55 +1,34 @@
 pocket-top:
-  lighter:
-    weight: 17
-  inhaler:
-    weight: 31
-  clipper:
-    weight: 19
-  file:
-    weight: 3
-  sunscreen:
-    weight: 30
-  lipbalm:
-    weight: 18
-  wallet:
-    weight: 45
-  cards:
-    weight: 26
+  lighter: 17
+  inhaler: 31
+  clipper: 19
+  file: 3
+  sunscreen: 30
+  lipbalm: 18
+  wallet: 45
+  cards: 26
 
 outside:
-  marker:
-    weight: 9
-  pen:
-    weight: 17
-  cara_hair_ties:
-    weight: 14
-  cara_hat:
-    weight: 25
-  hat:
-    weight: 89
+  marker: 9
+  pen: 17
+  cara_hair_ties: 14
+  cara_hat: 25
+  hat: 89
 
-pocket-main:
-  towels:
-    weight: 14
-  bags:
-    weight: 65
-  cards:
-    weight: 90
-  gloves:
-    weight: 45
-  marker-pink:
-    weight: 23
-  pen-green:
-    weight: 90
-  gum:
-    weight: 25
-  notebook:
-    weight: 55
-  multitool:
-    weight: 286
-  stickers:
-    weight: 20
-  keys:
-    weight: 44
+pocket-big:
+  straps:
+    marker-pink: 23
+    pen-green: 90
+    notebook: 55
+    multitool: 286
+  towels: 14
+  bags: 65
+  cards: 90
+  gloves: 45
+  gum: 25
+  stickers: 20
+  keys: 44
 
-
+pocket-small:
+  toys:
+    cube: 35
