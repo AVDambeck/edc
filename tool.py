@@ -1,4 +1,5 @@
 import yaml
+import matplotlib.pyplot as plt
 
 def load_yaml(file_path):
     with open(file_path, 'r') as file:
@@ -31,4 +32,20 @@ def list_items_by_weight(yaml):
     sortedSet = sorted(itemSet, key=lambda x: x[1])
     return(sortedSet)
 
-print(total_weight(edc))
+ls = list_items_by_weight(edc)
+for i in ls:
+    print(i)
+
+histData = list_weights(edc)
+
+range = (0, 300)
+#range = (min(histData), max(histData))
+bins = 20  
+
+plt.hist(histData, bins, range, color = 'red',
+        histtype = 'bar', rwidth = 0.8)
+plt.xlabel('weight (g)')
+plt.ylabel('items')
+plt.title('Edc Item Weights')
+plt.show()
+
