@@ -6,15 +6,19 @@ def load_yaml(file_path):
 
 edc = load_yaml("stuff.yml")
 
-def total_weight(yaml):
-    weight = 0
+def list_weights(yaml):
+    weights = []
     for i in yaml.keys():
         var = yaml[i]
         if type(var) is int:
-            weight += var
+            weights.append(var)
         else:
-            weight += total_weight(var)
-    return(weight)
+            weights += list_weights(var)
+    return(weights)
+
+
+def total_weight(yaml):
+    return(sum(list_weights(yaml)))
 
 def list_items_by_weight(yaml):
     itemSet = set()
@@ -27,7 +31,4 @@ def list_items_by_weight(yaml):
     sortedSet = sorted(itemSet, key=lambda x: x[1])
     return(sortedSet)
 
-ls = list_items_by_weight(edc)
-for i in ls:
-    print(i)
-
+print(total_weight(edc))
