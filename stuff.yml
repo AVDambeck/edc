@@ -1,62 +1,61 @@
-top:
-  bag: 560
+bag: 560
 
-  pocket-top:
-    lighter: 17
-    liquid-bandage: 40
-    inhaler: 31
-    clipper: 19
-    file: 3
-    lipbalm: 18
-    wallet: 45
-    cards: 26
+pocket-top:
+  lighter: 17
+  liquid-bandage: 40
+  inhaler: 31
+  clipper: 19
+  file: 3
+  lipbalm: 18
+  wallet: 45
+  cards: 26
 
-  pocket-big:
-    straps:
-      marker-pink: 23
-      pen-green: 90
-      multitool: 286
-      gloves: 45
-      towels: 14
-      bags: 65
-    pockets:
-      notebook: 55
-      stickers: 20
-    kit:
-      box: 27
-      bandaids: 0
-      ear-plugs: 10
-      meds:
-        box: 7
-        pills: 2
-    cards: 90
-    keys: 44
+pocket-big:
+  straps:
+    marker-pink: 23
+    pen-green: 90
+    multitool: 286
+    gloves: 45
+    towels: 14
+    bags: 65
+  pockets:
+    notebook: 55
+    stickers: 20
+  kit:
+    box: 27
+    bandaids: 0
+    ear-plugs: 10
+    meds:
+      box: 7
+      pills: 2
+  cards: 90
+  keys: 44
 
-  pocket-small:
-    toys:
-      cube: 35
-      buttons: 17
-      balisong: 168
-      beglari: 16
-    gum: 25
-    lense-wipes: 0
-    thumb-drive: 8
-    snack: 70
-    sunscreen: 30
-    nail-polish-remover: 35
+pocket-small:
+  toys:
+    cube: 35
+    buttons: 17
+    balisong: 168
+    beglari: 16
+  gum: 25
+  lense-wipes: 0
+  thumb-drive: 8
+  snack: 70
+  sunscreen: 30
+  nail-polish-remover: 35
 
-  pocker-outer:
-    masks: 20
+pocker-outer:
+  masks: 20
 
-  outside:
-    marker: 9
-    pen: 17
-    littleCara:
-      cara: 8
-      hairTies: 7
-    bigCara:
-      cara: 23
-      gymTag: 0
-      hat: 89
+outside:
+  marker: 9
+  pen: 17
+  littleCara:
+    cara: 8
+    hairTies: 7
+  bigCara:
+    cara: 23
+    gymTag: 0
+    hat: 89
 
 

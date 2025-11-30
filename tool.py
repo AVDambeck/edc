@@ -17,6 +17,27 @@ def sort_items_alpha(data):
     sorted_items = sorted(data, key=lambda x: x['name'])
     return sorted_items
 
-yaml = load_yaml("stuff.yml")
+class item:
+    def __init__(self, name, stuff=[], weight=None):
+        self.name = name
+        self.stuff = stuff
+        self.weight = weight
+
+    def add(self, item):
+        self.stuff += item
+
+edc = load_yaml("stuff.yml")
+
+def total_weight(yaml):
+    weight = 0
+    for i in yaml.keys():
+        var = yaml[i]
+        if type(var) is int:
+            weight += var
+        else:
+            weight += total_weight(var)
+    return(weight)
+
+print(total_weight(edc))
 
 
